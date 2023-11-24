@@ -1,6 +1,10 @@
 # ARNO
 
 ```
+wget https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt
+```
+
+```
 python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt checkpoints/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768 --precision=full
 ```
 
