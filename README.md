@@ -1,3 +1,24 @@
+# ARNO
+
+```
+python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt /Users/arno/Documents/Projecten/other/stablediffusion/checkpoints/v2-1_768-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768 --precision=full
+```
+
+Add to txt2img.py
+
+```python
+import sys
+sys.path.append('./')
+```
+
+Change in .yaml
+
+```yaml
+use_fp16: False
+```
+
+# ARNO END
+
 # Stable Diffusion Version 2
 ![t2i](assets/stable-samples/txt2img/768/merged-0006.png)
 ![t2i](assets/stable-samples/txt2img/768/merged-0002.png)
