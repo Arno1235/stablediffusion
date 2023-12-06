@@ -25,7 +25,7 @@ Change in .yaml
 use_fp16: False
 ```
 
-# Original Documentation:
+# Original Documentation
 
 # Stable Diffusion Version 2
 ![t2i](assets/stable-samples/txt2img/768/merged-0006.png)
